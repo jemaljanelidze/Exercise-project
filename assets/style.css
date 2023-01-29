@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: arial_geo;
+  src: url(../assets/fonts/arial_geo.ttf);
+}
+
+@font-face {
+  font-family: nino_mtavruli;
+  src: url(../assets/fonts/nino_mtavruli.ttf);
+}
+
+a {
+  text-decoration: none;
+  font-family: arial_geo;
+  color: white;
+}
+
+p, span {
+  font-family: nino_mtavruli;
+}
+
+h2, h3 {
+  font-family: arial_geo;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+#header {
+  background-image: url(./images/bg-image-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* height: 500px; */
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.nav-button {
+  display: inline-block;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 30px;
+  color: orange;
+}
+
+/* .navigation {
+  float: right;
+} */
+
+.navigation li {
+  display: inline-block;
+  padding: 15px;
+}
+
+.navigation li > a {
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 100px;
+}
+
+.header-content h2 {
+  font-size: 60px;
+  padding-top: 20px;
+}
+
+.header-content h3 {
+  font-size: 95px;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.header-content-button {
+  width: 25%;
+  background-color: orange;
+  border-radius: 5px;
+  padding: 15px 40px;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.services-title {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.services-title h2 {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.services-title span {
+  color: gray;
+}
+
+.flex {
+  display: flex;
+}
+
+.services-item {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.services-item .fas {
+  width: 100px;
+  height: 100px;
+  font-size: 50px;
+  color: white;
+  background-color: orange;
+  padding: 20px;
+  border-radius: 50%;
+}
+.services-item h3 {
+  padding: 20px;
+}
+
+.services-item p {
+  color: gray;
+}
+
+#portfolio {
+  background-color: rgb(243 241 241);
+}
+
+.portfolio-title {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.portfolio-title h2 {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.portfolio-title span {
+  color: gray;
+}
+
+.portfolio-content {
+  margin-top: 30px;
+  text-align: center;
+  background-color: rgb(243 241 241);
+}
+.portfolio-content-background {
+  background-image: url(./images/bg-image-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+
+.bg-color-white {
+  background-color: white;
+}
+
+.portfolio-content h3, .portfolio-content span{
+  font-size: 50px;
+  padding-top: 20px;
+}
+
+.portfolio-content span {
+  color: gray;
+}
+
+#cards {
+  background-color: rgb(243 241 241);
+  padding-top: 50px;
+}
+
+.cards-child .bg-color-white {
+  border-radius: 10px;
+}
+.cards-child-image {
+  position: relative;
+}
+
+.cards-child-image img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: bottom;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.box {
+  position: absolute;
+  font-size: 30px;
+  top: 30px;
+  left: 30px;
+  padding: 50px;
+  background-color: blue;
+  color: white;
+  border: 1px white solid;
+  border-radius: 10px;
+}
+
+.cards-child-image-button {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  font-size: 20px;
+  background-color: green;
+  padding: 5px 15px;
+  border-radius: 50px
+}
+
+.cards-child-image-button .fas {
+  color: white;
+}
+
+.cards-child-content {
+  padding: 30px;
+}
+
+.cards-child-content h3 {
+  color: rgb(73, 73, 73);
+  font-size: 30px;
+}
+
+.cards-child-content p {
+  color: rgb(138, 136, 136);
+  padding-top: 30px;
+}
+
+.price {
+  padding-top: 30px !important;
+  margin-left: -15px;
+}
+
+.price span {
+  display: block;
+  padding-top: 10px;
+}
+
+.price > span {
+  font-size: 25px;
+}
+
+.price-desc {
+  color: rgb(138, 136, 136);
+}
+
+.country {
+  display: block;
+  padding: 30px 0;
+  font-size: 30px;
+  color: rgb(138, 136, 136);
+}
+
+.country .fas {
+  color: blue;
+}
+
+.cards-button {
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: blue;
+  border-radius: 5px;
+}
+
+.cards-child-content > .fas {
+  font-size: 20px;
+  padding: 10px 10px;
+  margin-left: 10px;
+  background-color: rgb(138, 136, 136);
+  border-radius: 5px;
+}
